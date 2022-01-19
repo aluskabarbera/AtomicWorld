@@ -259,18 +259,18 @@ while True:
                 print(elements[a]['Symbol'], subscript)
 
                 atomicweight = elements[a]['Atomic mass (u)'] * subscript
-                print(atomicweight, "the atomic weight of ", elements[a]['Symbol'], subscript)
+                print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript)
                 weight = int(input("What is physical weight in grams?: "))
 
                 print("\nMoles:\n")
                 mol = 1
                 moles = weight * mol / atomicweight
-                print(moles, "moles are in the molecule ", elements[a]['Symbol'], subscript)
+                print(moles, "moles are in the molecule", elements[a]['Symbol'], subscript)
 
                 print("\nMolecules:\n")
                 avogadro = 6.022 * 10 ** 23 
                 molecules = moles * avogadro / mol
-                print(molecules, "molecules are in the molecule ", elements[a]['Symbol'], subscript)
+                print(molecules, "molecules are in the molecule", elements[a]['Symbol'], subscript)
 
                 print("\nAtoms:\n")
                 molecule = 1
@@ -329,25 +329,25 @@ while True:
                     print("Is not posible.")
                 elif element != element2:
                     atomicweight = elements[a]['Atomic mass (u)'] * subscript + elements[b]['Atomic mass (u)'] * subscript2
-                    print(atomicweight, "the atomic weight of ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
+                    print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
                     weight = int(input("What is physical weight in grams?: "))
 
                     print("\nMoles:\n")
                     mol = 1
                     moles = weight * mol / atomicweight
-                    print(moles, "moles are in the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
+                    print(moles, "moles are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
 
                     print("\nMolecules:\n")
                     avogadro = 6.022 * 10 ** 23 
                     molecules = moles * avogadro / mol
-                    print(molecules, "molecules are in the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
+                    print(molecules, "molecules are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
                     
                     print("\nAtoms:\n")
                     molecule = 1
                     atomsa = molecules * subscript / molecule
                     atomsb = molecules * subscript2 / molecule
-                    print(atomsa, "atoms are in the element", elements[a]['Name'], "of the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
-                    print(atomsb, "atoms are in the element", elements[b]['Name'], "of the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
+                    print(atomsa, "atoms are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
+                    print(atomsb, "atoms are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
                     
                     print("\nProtons and neutrons:\n")
                     atom = 1
@@ -431,18 +431,18 @@ while True:
                     print("Is not posible.")
                 elif element != element2 or element2 != element3 or element != element3:
                     atomicweight = elements[a]['Atomic mass (u)'] * subscript + elements[b]['Atomic mass (u)'] * subscript2 + elements[c]['Atomic mass (u)'] * subscript3
-                    print(atomicweight, "the atomic weight of ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
+                    print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
                     weight = int(input("What is physical weight in grams?: "))
 
                     print("\nMoles:\n")
                     mol = 1
                     moles = weight * mol / atomicweight
-                    print(moles, "moles are in the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
+                    print(moles, "moles are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
 
                     print("\nMolecules:\n")
                     avogadro = 6.022 * 10 ** 23 
                     molecules = moles * avogadro / mol
-                    print(molecules, "molecules are in the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
+                    print(molecules, "molecules are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
 
                     print("\nAtoms:\n")
                     molecule = 1
@@ -563,18 +563,18 @@ while True:
                     print("Is not posible.")
                 elif element != element2 or element != element3 or element != element4 or element2 != element3 or element2 != element4 or element3 != element4:
                     atomicweight = elements[a]['Atomic mass (u)'] * subscript + elements[b]['Atomic mass (u)'] * subscript2 + elements[c]['Atomic mass (u)'] * subscript3 + elements[d]['Atomic mass (u)'] * subscript4
-                    print(atomicweight, "the atomic weight of ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
                     weight = int(input("What is physical weight in grams?: "))
 
                     print("\nMoles:\n")
                     mol = 1
                     moles = weight * mol / atomicweight
-                    print(moles, "moles are in the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(moles, "moles are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
 
                     print("\nMolecules:\n ")
                     avogadro = 6.022 * 10 ** 23 
                     molecules = moles * avogadro / mol
-                    print(molecules, "molecules are in the molecule ", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(molecules, "molecules are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
 
                     print("\nAtoms:\n")
                     molecule = 1
@@ -708,7 +708,7 @@ while True:
             else:
                 print("I can't make a molecule.")
         elif option2 == "0":
-            print("Exiting... Until next time.")
+            print("Until next time.")
             break
         else:
             print("Invalid option.")
@@ -777,7 +777,7 @@ while True:
             print(bytes)
             print("\nI have created", total_bytes, "bytes.")
         elif option2 == "0":
-            print("Exiting... Until next time.")
+            print("Until next time.")
             break
         else:
             print("Invalid option.")
