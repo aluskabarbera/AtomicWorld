@@ -743,6 +743,7 @@ while True:
             bits = ['0','1']
 
             n = int(input("Enter the number of bits you want to generate: "))
+            total_bytes = n/8
 
             # We create a string that returns zeros and ones randomly.
             def random_binary(n):
@@ -774,6 +775,7 @@ while True:
                         bytes = bytes.replace(bytes.split(':')[byte_colored], subelement['Color_name'])
                         break
             print(bytes)
+            print("\nI have created", total_bytes, "bytes.")
         elif option2 == "0":
             print("Exiting... Until next time.")
             break
