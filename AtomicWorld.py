@@ -203,8 +203,8 @@ while True:
     print("""
                     Atomic World
                 [0]
-                    1) Periodic Table
-                    2) Standard Model
+                    1] Periodic Table
+                    2] Standard Model
     """)
 
     option1 = input("Please select a option: ")
@@ -245,7 +245,7 @@ while True:
             117. Tennessine     118. Oganesson
 
             [0]
-                1) Calculate the atoms of a molecule 
+                1] Calculate the atoms of a molecule 
         """)
         option2 = input("Please select a option: ")
         if option2 == "1":
@@ -735,7 +735,7 @@ while True:
             \033[96mAntileptons\033[0m              \033[101mGauge Bosons\033[0m            \033[102mScalar Bosons\033[0m
 
             [0]
-                1) Create a simple Big Bang 
+                1] Create a simple Big Bang 
         """)
         option2 = input("What do you want to do? ")
         if option2 == "1":
