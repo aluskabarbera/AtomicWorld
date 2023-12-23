@@ -106,7 +106,7 @@ elements = [
     {'Name': 'Hafnium', 'Symbol': 'Hf', 'Atomic mass (u)': 178.49 , 'Density (when liquid at melting point) (g/cm3)': 13.28 , 'Melting (°C)' : 2232.85 , 'Boiling (°C)' : 4601.85 , 'Protons' : 72 , 'Neutrons' : 106 , 'Binary': "1001000"},
     {'Name': 'Tantalum', 'Symbol': 'Ta', 'Atomic mass (u)': 180.94788 , 'Density (when liquid at melting point) (g/cm3)': 15 , 'Melting (°C)' : 3017 , 'Boiling (°C)' : 5456.85 , 'Protons' : 73 , 'Neutrons' : 108 , 'Binary': "1001001"},
     {'Name': 'Tungsten', 'Symbol': 'W', 'Atomic mass (u)': 183.84 , 'Density (when liquid at melting point) (g/cm3)': 17.6 , 'Melting (°C)' : 3422 , 'Boiling (°C)' : 5555 , 'Protons' : 74 , 'Neutrons' : 110 , 'Binary': "1001010"},
-    {'Name': 'Ruthenium', 'Symbol': 'Ru', 'Atomic mass (u)': 101.07 , 'Density (when liquid at melting point) (g/cm3)': 10.65 , 'Melting (°C)' : 2334 , 'Boiling (°C)' : 4150 , 'Protons' : 75 , 'Neutrons' : 111 , 'Binary': "1001011"},
+    {'Name': 'Rhenium', 'Symbol': 'Ru', 'Atomic mass (u)': 101.07 , 'Density (when liquid at melting point) (g/cm3)': 10.65 , 'Melting (°C)' : 2334 , 'Boiling (°C)' : 4150 , 'Protons' : 75 , 'Neutrons' : 111 , 'Binary': "1001011"},
     {'Name': 'Osmium', 'Symbol': 'Os', 'Atomic mass (u)': 190.23 , 'Density (when liquid at melting point) (g/cm3)': 20 , 'Melting (°C)' : 3033 , 'Boiling (°C)' : 5026.85 , 'Protons' : 76 , 'Neutrons' : 114 , 'Binary': "1001100"},
     {'Name': 'Iridium', 'Symbol': 'Ir', 'Atomic mass (u)': 192.217 , 'Density (when liquid at melting point) (g/cm3)': 19 , 'Melting (°C)' : 2466 , 'Boiling (°C)' : 4130 , 'Protons' : 77 , 'Neutrons' : 115 , 'Binary': "1001101"},
     {'Name': 'Platinum', 'Symbol': 'Pt', 'Atomic mass (u)': 195.084 , 'Density (when liquid at melting point) (g/cm3)': 19.77 , 'Melting (°C)' : 1768.3 , 'Boiling (°C)' : 3825 , 'Protons' : 78 , 'Neutrons' : 117 , 'Binary': "1001110"},
@@ -137,7 +137,7 @@ elements = [
     {'Name': 'Lawrencium', 'Symbol': 'Lr', 'Atomic mass (u)': 262 ,  'Melting (°C)': 1626.85 , 'Protons' : 103 , 'Neutrons' : 159, 'Binary': "1100111"},
     {'Name': 'Rutherfordium', 'Symbol': 'Rf', 'Atomic mass (u)': 261 , 'Protons' : 104 , 'Neutrons' : 157 , 'Binary': "1101000"},
     {'Name': 'Dubnium', 'Symbol': 'Db', 'Atomic mass (u)': 262 , 'Protons' : 105 , 'Neutrons' : 157 , 'Binary': "1101001"},
-    {'Name': 'Seaborgium', 'Symbol': 'Sg' , 'Protons': 106 , 'Neutrons': 157 , 'Binary': "1101010"},
+    {'Name': 'Seaborgium', 'Symbol': 'Sg' ,'Atomic mass (u)': 0 , 'Protons': 106 , 'Neutrons' : 157 , 'Binary': "1101010"},
     {'Name': 'Bohrium', 'Symbol': 'Bh', 'Atomic mass (u)': 264 , 'Protons': 107 , 'Neutrons' : 157 , 'Binary': "1101011"},
     {'Name': 'Hassium', 'Symbol': 'Hs', 'Atomic mass (u)': 277 , 'Protons': 108 , 'Neutrons' : 157 , 'Binary': "1101100"},
     {'Name': 'Meitnerium', 'Symbol': 'Mt', 'Atomic mass (u)': 278 , 'Protons': 109 , 'Neutrons' : 159 , 'Binary': "1101101"},
@@ -148,7 +148,7 @@ elements = [
     {'Name': 'Flerovium', 'Symbol': 'Fl', 'Atomic mass (u)': 289 , 'Protons' : 114 , 'Neutrons' : 171 , 'Binary': "1110010"},
     {'Name': 'Moscovium', 'Symbol': 'Mc', 'Atomic mass (u)': 288 , 'Protons' : 115 , 'Neutrons' : 172 , 'Binary': "1110011"},
     {'Name': 'Livermorium', 'Symbol': 'Lv', 'Atomic mass (u)': 292 , 'Protons' : 116 , 'Neutrons' : 173 , 'Binary': "1110100"},
-    {'Name': 'Tennessine', 'Symbol': 'Ts' , 'Protons' : 117 , 'Binary': "1110101"},
+    {'Name': 'Tennessine', 'Symbol': 'Ts' ,'Atomic mass (u)': 0 , 'Protons' : 117 , 'Neutrons' : 0 , 'Binary': "1110101"},
     {'Name': 'Oganesson', 'Symbol': 'Og' , 'Atomic mass (u)': 294 , 'Protons' : 118 , 'Neutrons' : 175 , 'Binary': "1110110"}]
 
 #· Estandar Model 
@@ -231,7 +231,7 @@ while True:
             61. Promethium      62. Samarium        63. Europium        64. Gadolinium
             65. Terbium         66. Dysprosium      67. Holmium         68. Erbium
             69. Thulium         70. Ytterbium       71. Lutetium        72. Hafnium
-            73. Tantalum        74. Tungsten        75. Ruthenium       76. Osmium
+            73. Tantalum        74. Tungsten        75. Rhenium         76. Osmium
             77. Iridium         78. Platinum        79. Gold            80. Mercury
             81. Thallium        82. Lead            83. Bismuth         84. Polonium
             85. Astatine        86. Radon           87. Francium        88. Radium
@@ -261,7 +261,7 @@ while True:
 
                 atomicweight = elements[a]['Atomic mass (u)'] * subscript
                 print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript)
-                weight = int(input("What is physical weight in grams?: "))
+                weight = float(input("What is physical weight in grams?: "))
 
                 print("\nMoles:\n")
                 mol = 1
@@ -331,7 +331,7 @@ while True:
                 elif element != element2:
                     atomicweight = elements[a]['Atomic mass (u)'] * subscript + elements[b]['Atomic mass (u)'] * subscript2
                     print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
-                    weight = int(input("What is physical weight in grams?: "))
+                    weight = float(input("What is physical weight in grams?: "))
 
                     print("\nMoles:\n")
                     mol = 1
@@ -433,7 +433,7 @@ while True:
                 elif element != element2 or element2 != element3 or element != element3:
                     atomicweight = elements[a]['Atomic mass (u)'] * subscript + elements[b]['Atomic mass (u)'] * subscript2 + elements[c]['Atomic mass (u)'] * subscript3
                     print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
-                    weight = int(input("What is physical weight in grams?: "))
+                    weight = float(input("What is physical weight in grams?: "))
 
                     print("\nMoles:\n")
                     mol = 1
@@ -556,26 +556,26 @@ while True:
                 c = indexelements[element3]
                 subscript3 = int(input('What is the subscript of the third element?: '))
                 element4 = str(input('What is the name of the fourth element?: '))
-                d = indexelements[element4]
+                z = indexelements[element4]
                 subscript4 = int(input('What is the subscript of the fourth element?: '))
-                print(elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                print(elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
                 if element == element2 or element == element3 or element == element4 or element2 == element3 or element2 == element4 or element3 == element4:
                     print("Is not posible.")
                 elif element != element2 or element != element3 or element != element4 or element2 != element3 or element2 != element4 or element3 != element4:
-                    atomicweight = elements[a]['Atomic mass (u)'] * subscript + elements[b]['Atomic mass (u)'] * subscript2 + elements[c]['Atomic mass (u)'] * subscript3 + elements[d]['Atomic mass (u)'] * subscript4
-                    print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    weight = int(input("What is physical weight in grams?: "))
+                    atomicweight = elements[a]['Atomic mass (u)'] * subscript + elements[b]['Atomic mass (u)'] * subscript2 + elements[c]['Atomic mass (u)'] * subscript3 + elements[z]['Atomic mass (u)'] * subscript4
+                    print(atomicweight, "the atomic weight of", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    weight = float(input("What is physical weight in grams?: "))
 
                     print("\nMoles:\n")
                     mol = 1
                     moles = weight * mol / atomicweight
-                    print(moles, "moles are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(moles, "moles are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
                     print("\nMolecules:\n ")
                     avogadro = 6.022 * 10 ** 23 
                     molecules = moles * avogadro / mol
-                    print(molecules, "molecules are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(molecules, "molecules are in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
                     print("\nAtoms:\n")
                     molecule = 1
@@ -583,10 +583,10 @@ while True:
                     atomsb = molecules * subscript2 / molecule
                     atomsc = molecules * subscript3 / molecule
                     atomsd = molecules * subscript4 / molecule
-                    print(atomsa, "atoms are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(atomsb, "atoms are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(atomsc, "atoms are in the element", elements[c]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(atomsd, "atoms are in the element", elements[d]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(atomsa, "atoms are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(atomsb, "atoms are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(atomsc, "atoms are in the element", elements[c]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(atomsd, "atoms are in the element", elements[z]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
 
                     print("\nProtons and neutrons:\n")
@@ -597,17 +597,17 @@ while True:
                     neutronsb = atomsb * elements[b]['Neutrons'] / atom
                     protonsc = atomsc * elements[c]['Protons'] / atom
                     neutronsc = atomsc * elements[c]['Neutrons'] / atom
-                    protonsd = atomsd * elements[d]['Protons'] / atom
-                    neutronsd = atomsd * elements[d]['Neutrons'] / atom
+                    protonsd = atomsd * elements[z]['Protons'] / atom
+                    neutronsd = atomsd * elements[z]['Neutrons'] / atom
 
-                    print(atomsa, "protons are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(neutronsa, "neutrons are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(atomsb, "protons are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(neutronsb, "neutrons are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(atomsc, "protons are in the element", elements[c]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(neutronsc, "neutrons are in the element", elements[c]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(atomsd, "protons are in the element", elements[d]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(neutronsd, "neutrons are in the element", elements[d]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(atomsa, "protons are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(neutronsa, "neutrons are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(atomsb, "protons are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(neutronsb, "neutrons are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(atomsc, "protons are in the element", elements[c]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(neutronsc, "neutrons are in the element", elements[c]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(atomsd, "protons are in the element", elements[z]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(neutronsd, "neutrons are in the element", elements[z]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
 
                     print("\n\033[92mSub\033[0m\033[94ma\033[0m\033[95mto\033[0m\033[96mmic\033[0m \033[104mWo\033[0m\033[101mrld\033[0m\n")
@@ -636,29 +636,29 @@ while True:
                     quarksupneutronsd = quarksupareinneutrons * protonsd / proton
                     quarksdownneutronsd = quarksdownareinneutrons * protonsd / proton
 
-                    print(quarksupprotonsa, "quarks \033[92mUp\033[0m are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(quarksdownprotonsa, "quarks \033[92mDown\033[0m are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(quarksupprotonsa, "quarks \033[92mUp\033[0m are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(quarksdownprotonsa, "quarks \033[92mDown\033[0m are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(quarksupneutronsa, "quarks \033[92mUp\033[0m are in neutrons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(quarksdownneutronsa, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(quarksupneutronsa, "quarks \033[92mUp\033[0m are in neutrons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(quarksdownneutronsa, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
-                    print(quarksupprotonsb, "quarks \033[92mUp\033[0m are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(quarksdownprotonsb, "quarks \033[92mDown\033[0m are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(quarksupprotonsb, "quarks \033[92mUp\033[0m are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(quarksdownprotonsb, "quarks \033[92mDown\033[0m are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
                     print(quarksupneutronsb, "quarks \033[92mUp\033[0m are in neutrons of the element", elements[b]['Name'], "in the molecule",  elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
-                    print(quarksdownneutronsb, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(quarksdownneutronsb, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
-                    print(quarksupprotonsc, "quarks \033[92mUp\033[0m are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(quarksdownprotonsc, "quarks \033[92mDown\033[0m are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(quarksupprotonsc, "quarks \033[92mUp\033[0m are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(quarksdownprotonsc, "quarks \033[92mDown\033[0m are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(quarksupneutronsc, "quarks \033[92mUp\033[0m are in neutrons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(quarksdownneutronsc, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(quarksupneutronsc, "quarks \033[92mUp\033[0m are in neutrons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(quarksdownneutronsc, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(quarksupprotonsd, "quarks \033[92mUp\033[0m are in protons of the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(quarksdownprotonsc, "quarks \033[92mDown\033[0m are in protons of the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(quarksupprotonsd, "quarks \033[92mUp\033[0m are in protons of the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(quarksdownprotonsc, "quarks \033[92mDown\033[0m are in protons of the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(quarksupneutronsd, "quarks \033[92mUp\033[0m are in neutrons of the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(quarksdownneutronsd, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)  
+                    print(quarksupneutronsd, "quarks \033[92mUp\033[0m are in neutrons of the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(quarksdownneutronsd, "quarks \033[92mDown\033[0m are in neutrons of in the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)  
 
                     print("\nMass MeVC2 of the \033[92mUp\033[0m and \033[92mDown\033[0m quarks are in the protons and neutrons of each element:\n")
                     u = indexsubelements['Up']
@@ -683,29 +683,29 @@ while True:
                     massquarksupneutronsd = subelements[u]['mass MeVC2'] * quarksupneutronsd
                     massquarksdownneutronsd = subelements[d]['mass MeVC2'] * quarksdownneutronsd
 
-                    print(massquarksupprotonsa, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(massquarksdownprotonsa, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupprotonsa, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownprotonsa, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(massquarksupneutronsa, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(massquarksdownneutronsa, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupneutronsa, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownneutronsa, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[a]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
-                    print(massquarksupprotonsb, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(massquarksdownprotonsb, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupprotonsb, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownprotonsb, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(massquarksupneutronsb, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(massquarksdownneutronsb, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupneutronsb, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownneutronsb, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[b]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
-                    print(massquarksupprotonsc, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(massquarksdownprotonsc, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupprotonsc, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownprotonsc, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(massquarksupneutronsc, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
-                    print(massquarksdownneutronsc, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupneutronsc, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownneutronsc, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[c]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
 
-                    print(massquarksupprotonsd, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
-                    print(massquarksdownprotonsd, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupprotonsd, "mass quarks \033[92mUp\033[0m are in protons of the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownprotonsd, "mass quarks \033[92mDown\033[0m are are in protons of the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
                     
-                    print(massquarksupneutronsd, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2)
-                    print(massquarksdownneutronsd, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[d]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[d]['Symbol'], subscript4)
+                    print(massquarksupneutronsd, "mass quarks \033[92mUp\033[0m are in neutrons of the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
+                    print(massquarksdownneutronsd, "mass quarks \033[92mDown\033[0m are are in neutrons of in the element", elements[z]['Name'], "in the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3, elements[z]['Symbol'], subscript4)
             else:
                 print("I can't make a molecule.")
         elif option2 == "0":
