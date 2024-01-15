@@ -110,7 +110,6 @@ elements = [
     {'Name': 'Osmium', 'Symbol': 'Os', 'Atomic mass (u)': 190.23 , 'Density (when liquid at melting point) (g/cm3)': 20 , 'Melting (°C)' : 3033 , 'Boiling (°C)' : 5026.85 , 'Protons' : 76 , 'Neutrons' : 114 , 'Binary': "1001100"},
     {'Name': 'Iridium', 'Symbol': 'Ir', 'Atomic mass (u)': 192.217 , 'Density (when liquid at melting point) (g/cm3)': 19 , 'Melting (°C)' : 2466 , 'Boiling (°C)' : 4130 , 'Protons' : 77 , 'Neutrons' : 115 , 'Binary': "1001101"},
     {'Name': 'Platinum', 'Symbol': 'Pt', 'Atomic mass (u)': 195.084 , 'Density (when liquid at melting point) (g/cm3)': 19.77 , 'Melting (°C)' : 1768.3 , 'Boiling (°C)' : 3825 , 'Protons' : 78 , 'Neutrons' : 117 , 'Binary': "1001110"},
-    {'Name': 'Gold', 'Symbol': 'Au', 'Atomic mass (u)': 196.966569 , 'Density (when liquid at melting point) (g/cm3)': 17.31 , 'Melting (°C)' : 1064.18 , 'Boiling (°C)' : 2700 , 'Protons' : 79 , 'Neutrons' : 118 , 'Binary': "1001111"},
     {'Name': 'Gold', 'Symbol': 'Au', 'Atomic mass (u)': 196.966569 , 'Density (when liquid at melting point) (g/cm3)': 17.31 , 'Melting (°C)' : 1064.18 , 'Boiling (°C)' : 2700 , 'Protons' : 79 , 'Neutrons' : 118 , 'Binary': "1010000"},
     {'Name': 'Thallium', 'Symbol': 'Tl', 'Atomic mass (u)': 204.3833 , 'Density (when liquid at melting point) (g/cm3)': 11.22 , 'Melting (°C)' : 304 , 'Boiling (°C)' : 1472.85 , 'Protons' : 81 , 'Neutrons' : 123 , 'Binary': "1010001"},
     {'Name': 'Lead', 'Symbol': 'Pb', 'Atomic mass (u)': 207.2 , 'Density (when liquid at melting point) (g/cm3)': 10.66 , 'Melting (°C)' : 327.5 , 'Boiling (°C)' : 1749 , 'Protons' : 82 , 'Neutrons' : 125 , 'Binary': "1010010"},
@@ -449,7 +448,7 @@ while True:
                     molecule = 1
                     atomsa = molecules * subscript / molecule
                     atomsb = molecules * subscript2 / molecule
-                    atomsc = molecules * subscript2 / molecule
+                    atomsc = molecules * subscript3 / molecule
                     print(atomsa, "atoms are in the element", elements[a]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
                     print(atomsb, "atoms are in the element", elements[b]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
                     print(atomsc, "atoms are in the element", elements[c]['Name'], "of the molecule", elements[a]['Symbol'], subscript, elements[b]['Symbol'], subscript2, elements[c]['Symbol'], subscript3)
