@@ -1,28 +1,30 @@
 # AtomicWorld
 With this application you can calculate the atoms of each element in a molecule. And on the other hand you can 'simulate' a Big Bang.
 
-Requirements:
-Have the latest version of Python.
-Install or have the pip package manager installed. (It's very simple, there are many tutorials where they explain it.)
-And finally run the command pip3 install colorama in the terminal.
-  
-How born this code:
-Some time ago I saw that I could program the operations we do to calculate the atoms in a molecule.
-So I decided to automate this task.
-Then, within the "Periodic table" option, you can calculate the atomic weight, moles, molecules, atoms, protons and neutrons, quarks and their mass.
+# Description:
+The Molecule Calculator program is a tool that allows you to calculate various properties of a molecule composed of up to four chemical elements. The user can enter the names and subscripts of the elements that make up the molecule, as well as their physical weight in grams, and the program will calculate and display detailed information about the composition of the molecule, including the number of moles, the number of molecules, the number of atoms, the number of protons and neutrons, as well as the mass in MeV/c^2 of the Up and Down quarks present in the protons and neutrons of each element.
 
-And in the "Standard model" part I had the idea of associating each subelement to a binary number.
-So, I decided that within a string of random zeros and ones, find if any byte had matched, if so, I would color it by the family it belongs to and finally translate the byte to its corresponding name.
+# Main Features:
 
-Functioning:
-It's very simple, you just have to read and follow the steps.
-You must write down the results because they are not stored anywhere.
-Hope you enjoy the app. Ah, remember with great power comes great responsibility. 
+   __·__ Calculation of the number of moles in the molecule.
 
-Acknowledgment:
-I thank all the programmers who have helped me, and myself.
+   __·__ Calculation of the number of molecules in the molecule.
 
-Maintenance:
-This code is under a license (although I think I have the wrong license, because I have no idea of licenses.) But in it you are free to run it wherever and whenever you want, to be able to modify it and distribute it freely.
+   __·__ Calculation of the number of atoms of each element in the molecule.
 
-Post data: If you modified something, and it was for the better, could I know?
+   __·__ Calculation of the number of protons and neutrons of each element in the molecule.
+
+   __·__ Calculation of the mass in MeV/c^2 of the Up and Down quarks present in the protons and neutrons of each element.
+
+# Logic Used:
+The program uses a series of formulas and calculations based on the information provided about the chemical elements, including their atomic mass, number of protons and neutrons, as well as the mass in MeV/c^2 of the Up and Down quarks.
+
+# Development of the program:
+The program has been developed using the Python programming language. The following libraries have been used:
+
+**'random'**: Used to generate random numbers in the program.
+
+**'colorama'**: Used for the color format in the program output.
+
+**'time'**: Used to calculate the execution of the program at certain points for a better user experience.
+
